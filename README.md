@@ -34,8 +34,7 @@ summary of their pending tasks using AI (OpenAI GPT), and send that summary to a
 ### 1. Clone the repo
 
 
-git clone https://github.com/yourusername/todo-summary-assistant.git
-cd todo-summary-assistant
+git https://github.com/NGamaniprasad/Intern_Assignment
 
 
 ---
