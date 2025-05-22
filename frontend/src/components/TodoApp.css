@@ -1,0 +1,114 @@
+/* Base reset */
+html, body, #root {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f4f6f8;
+  }
+  
+  /* App container */
+  .todo-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Main content grows to push footer down */
+  .todo-main {
+    flex: 1;
+  }
+  
+  /* Input and button group */
+  .input-group {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .input-group input {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 6px 0 0 6px;
+    outline: none;
+  }
+  
+  .input-group button {
+    padding: 10px 20px;
+    background-color: #0077cc;
+    color: white;
+    border: none;
+    border-radius: 0 6px 6px 0;
+    cursor: pointer;
+  }
+  
+  .input-group button:hover {
+    background-color: #005fa3;
+  }
+  
+  /* Todo list */
+  .todo-list {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  
+  .todo-list li {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 10px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .todo-list button {
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  /* Summary button */
+  .summarize-btn {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .summarize-btn:hover {
+    background-color: #218838;
+  }
+  
+  /* Message */
+  .message {
+    margin-top: 10px;
+    color: #333;
+    font-style: italic;
+  }
+  
+  /* Footer */
+  .footer {
+    margin-top: auto;
+    padding: 15px 10px;
+    text-align: center;
+    font-size: 14px;
+    color: #555;
+    background-color: #f1f1f1;
+    border-top: 1px solid #ddd;
+    border-radius: 0 0 10px 10px;
+  }
+  
+  .footer .author {
+    color: #0077cc;
+    font-weight: bold;
+  }
+  
